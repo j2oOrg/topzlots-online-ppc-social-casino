@@ -1,0 +1,10 @@
+.git
+.gitignore
+.idea
+.env
+k8s/
+node_modules/
+cloudbuild.yaml
+Dockerfile
+.dockerignore
+tools/

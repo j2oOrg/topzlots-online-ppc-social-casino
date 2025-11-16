@@ -1,0 +1,30 @@
+<svg width="560" height="160" viewBox="0 0 560 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="satzumo-wordmark-fill" x1="40" y1="20" x2="520" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="hsl(186, 100%, 55%)"/>
+      <stop offset="0.54" stop-color="hsl(268, 87%, 62%)"/>
+      <stop offset="1" stop-color="hsl(344, 83%, 62%)"/>
+    </linearGradient>
+    <linearGradient id="satzumo-wordmark-stroke" x1="0" y1="0" x2="560" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="hsl(186, 100%, 70%)" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="hsl(344, 83%, 72%)" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="satzumo-glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="544" height="144" rx="28" fill="url(#satzumo-wordmark-stroke)" opacity="0.18"/>
+  <rect x="16" y="16" width="528" height="128" rx="24" fill="url(#satzumo-wordmark-fill)" opacity="0.12"/>
+
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Space Grotesk', 'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="82" font-weight="700" fill="url(#satzumo-wordmark-fill)" letter-spacing="0.06em" filter="url(#satzumo-glow)">
+    SATZUMO
+  </text>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="'Space Grotesk', 'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="82" font-weight="700" fill="none" stroke="url(#satzumo-wordmark-stroke)" stroke-width="2" letter-spacing="0.06em">
+    SATZUMO
+  </text>
+</svg>
