@@ -157,3 +157,10 @@ Rebrand the age-gate modal so it renders as a full-screen overlay:
 
 Run that prompt (or the equivalent manual steps) in each lounge variant to eliminate the footer rendering bug. Once complete, hard-refresh each site to confirm the overlay appears centred, with the page behind it locked and blurred.
 
+
+
+
+
+
+
+
