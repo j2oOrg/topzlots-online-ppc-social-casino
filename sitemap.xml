@@ -8,17 +8,27 @@
   <url>
     <loc>https://topzlots.online/community/</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topzlots.online/leaderboard/</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://topzlots.online/auth/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://topzlots.online/daily-bonus/</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://topzlots.online/accessibility/</loc>
+    <loc>https://topzlots.online/how-it-works/</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://topzlots.online/responsible-play/</loc>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://topzlots.online/community-guidelines/</loc>
@@ -26,9 +36,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topzlots.online/accessibility/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://topzlots.online/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topzlots.online/data-rights/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://topzlots.online/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://topzlots.online/cookie-policy/</loc>
@@ -39,31 +64,6 @@
     <loc>https://topzlots.online/cookie-settings/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://topzlots.online/data-rights/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://topzlots.online/how-it-works/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://topzlots.online/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://topzlots.online/profile/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://topzlots.online/responsible-play/</loc>
-    <changefreq>quarterly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://topzlots.online/terms/</loc>
