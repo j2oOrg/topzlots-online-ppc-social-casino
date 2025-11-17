@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fortuneplay-fun-ppc-social
+  name: topzlots-online-ppc-social
   labels:
-    app: fortuneplay-fun-ppc-social
+    app: topzlots-online-ppc-social
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fortuneplay-fun-ppc-social
+      app: topzlots-online-ppc-social
   template:
     metadata:
       labels:
-        app: fortuneplay-fun-ppc-social
+        app: topzlots-online-ppc-social
     spec:
       containers:
-        - name: fortuneplay-fun-ppc-social
+        - name: topzlots-online-ppc-social
           image: IMAGE_PLACEHOLDER
           ports:
             - containerPort: 80
@@ -23,13 +23,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fortuneplay-fun-ppc-social
+  name: topzlots-online-ppc-social
   labels:
-    app: fortuneplay-fun-ppc-social
+    app: topzlots-online-ppc-social
 spec:
   type: LoadBalancer
   selector:
-    app: fortuneplay-fun-ppc-social
+    app: topzlots-online-ppc-social
   ports:
     - name: http
       protocol: TCP
