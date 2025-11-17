@@ -479,6 +479,77 @@ blockquote {
   gap: 0.9rem;
 }
 
+.phase-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+
+.phase-card {
+  padding: 1.75rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(145deg, rgba(122, 91, 255, 0.18), rgba(255, 95, 158, 0.18));
+  box-shadow: 0 25px 70px rgba(5, 3, 24, 0.6);
+  display: grid;
+  gap: 0.85rem;
+}
+
+.phase-card__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  color: var(--muted-soft);
+}
+
+.origin__spark {
+  padding: clamp(1.5rem, 4vw, 2.6rem);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background:
+    radial-gradient(120% 140% at 10% 10%, rgba(255, 95, 158, 0.4), transparent),
+    radial-gradient(140% 120% at 90% 0%, rgba(95, 228, 255, 0.25), transparent),
+    rgba(10, 6, 34, 0.95);
+  box-shadow: 0 45px 85px rgba(5, 2, 28, 0.6);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pill--glow {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text);
+}
+
+.origin__spark-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.spark-chip {
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 16px 40px rgba(2, 0, 12, 0.45);
+  display: grid;
+  gap: 0.4rem;
+}
+
+.spark-chip__label {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.65rem;
+  color: var(--muted-soft);
+}
+
+.origin__spark-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
 .team-photo {
   width: 100%;
   border-radius: var(--radius-lg);
